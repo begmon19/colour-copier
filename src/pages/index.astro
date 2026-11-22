@@ -1,0 +1,27 @@
+---
+import { SITE } from '@/config/site';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import Services from '@/components/home/Services.astro';
+import WhyEngage from '@/components/home/WhyEngage.astro';
+import About from '@/components/home/About.astro';
+import Contact from '@/components/home/Contact.astro';
+---
+
+<BaseLayout
+  title={SITE.title}
+  description={SITE.description}
+  type="website"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: new URL(Astro.url.pathname, SITE.url).toString(),
+  }}
+>
+  <Hero />
+  <Services />
+  <WhyEngage />
+  <About />
+  <Contact />
+</BaseLayout>

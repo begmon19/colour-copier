@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "sourceUrl": "https://colour-copier.com",
+  "capturedAt": "2026-11-22T02:10:32.927Z",
+  "files": [
+    {
+      "path": "data/pages/index.md",
+      "sha256": "974cb0de20b21352cf20d0698ddabe74e1ddde1fcb3bd729ab1b1c2e3bb48aa5"
+    },
+    {
+      "path": "data/pages/index.styles.json",
+      "sha256": "66ca23ea573f84f8bdc1a242582177cb6a0b10ce8ef43c201440bc8cc14ae46b"
+    },
+    {
+      "path": "data/pages/index.computed-styles.json",
+      "sha256": "aa59e2c6ee7cedd8118595657c4650d30ac34e50de346f4974764742cf702237"
+    },
+    {
+      "path": "data/pages/index.resolved-design-facts.json",
+      "sha256": "ef0a75dbb246db53f2587dffe34c983e5b9817437555c387d72ead6de185ed75"
+    },
+    {
+      "path": "data/pages/index.sections.json",
+      "sha256": "4b022aaaace515cffddfb45bab6401bb9dd5560728d1bac122021bb2e451b8bc"
+    },
+    {
+      "path": "data/pages/index.extraction-coverage.json",
+      "sha256": "d647ba3c5a30c2fbe89c39325fe668288bbdcf4a84719ed55ce36335784128af"
+    },
+    {
+      "path": "data/pages/index.compiled-error.txt",
+      "sha256": "9c005e49d61ddee343f266f13703ae34c22c6d68ed5df0781ad8fc4b2d60cd87"
+    },
+    {
+      "path": "data/pages/index.images.json",
+      "sha256": "408dd9b75d08cb882fb8c18274dd635ae29b0543c19347b5f642e4d7f45b9f48"
+    },
+    {
+      "path": "data/scraped_site.json",
+      "sha256": "567f56f13f6ffba9317720b742db1f149eae4c706be26221dce3d1fa19986b25"
+    }
+  ],
+  "media": [
+    {
+      "originalUrl": "https://colour-copier.com/images/0/27967138/Colour_Copier_Logo-_2.jpg__1_-removebg-preview-DsbteiEd8TT1jvuNzTXULw.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/Colour_Copier_Logo-2.jpg-1-removebg-preview-DsbteiEd8TT1jvuNzTXULw-06c97e-612.webp",
+      "width": 612,
+      "height": 408,
+      "role": "logo"
+    },
+    {
+      "originalUrl": "https://colour-copier.com/images/0/27967437/c7e060ee-5830-4774-94ff-f6e07c4a805f-gw0tzYAIaFKT0WyM9BgCmA.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/c7e060ee-5830-4774-94ff-f6e07c4a805f-gw0tzYAIaFKT0WyM9BgCmA-46c535-1536.webp",
+      "width": 2048,
+      "height": 768,
+      "role": "photo"
+    },
+    {
+      "originalUrl": "https://colour-copier.com/images/0/27967462/df9999a2-8614-4559-b254-65107d630747-icbW0m4_VHvNEif6c19k9g.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/df9999a2-8614-4559-b254-65107d630747-icbW0m4_VHvNEif6c19k9g-ade633-1536.webp",
+      "width": 1983,
+      "height": 793,
+      "role": "photo"
+    },
+    {
+      "originalUrl": "https://colour-copier.com/images/1920/27967554/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ-982b2a-1536.webp",
+      "width": 1920,
+      "height": 720,
+      "role": "photo"
+    },
+    {
+      "originalUrl": "https://colour-copier.com/images/1920/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA-4f880a-1536.webp",
+      "width": 1920,
+      "height": 768,
+      "role": "photo"
+    },
+    {
+      "originalUrl": "https://colour-copier.com/images/976/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA-c76ddc-976.webp",
+      "width": 976,
+      "height": 390,
+      "role": "photo"
+    },
+    {
+      "originalUrl": "https://colour-copier.com/images/976/27967554/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ.png",
+      "url": "https://pagesmith-cdn.com/241cb74f/images/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ-1e4ada-976.webp",
+      "width": 976,
+      "height": 366,
+      "role": "photo"
+    }
+  ],
+  "imageContexts": [
+    {
+      "context": "Menu",
+      "altText": "Individual",
+      "originalUrl": "https://colour-copier.com/images/0/27967138/Colour_Copier_Logo-_2.jpg__1_-removebg-preview-DsbteiEd8TT1jvuNzTXULw.png",
+      "originalWidth": 612,
+      "originalHeight": 408,
+      "hasTransparency": true,
+      "contentTone": "mixed",
+      "isLogo": true,
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/Colour_Copier_Logo-2.jpg-1-removebg-preview-DsbteiEd8TT1jvuNzTXULw-06c97e-612.webp"
+    },
+    {
+      "context": "Section: About Us | Our commitment is to provide honest, cost-effective photocopy machine rental service. By using the l",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/0/27967437/c7e060ee-5830-4774-94ff-f6e07c4a805f-gw0tzYAIaFKT0WyM9BgCmA.png",
+      "originalWidth": 2048,
+      "originalHeight": 768,
+      "hasTransparency": false,
+      "contentTone": "light",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/c7e060ee-5830-4774-94ff-f6e07c4a805f-gw0tzYAIaFKT0WyM9BgCmA-46c535-1536.webp"
+    },
+    {
+      "context": "Section: Reducing costs through technology | Not only do our technical staff all have years of experience with Copier, Printer, Fax & Scanner, th",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/0/27967462/df9999a2-8614-4559-b254-65107d630747-icbW0m4_VHvNEif6c19k9g.png",
+      "originalWidth": 1983,
+      "originalHeight": 793,
+      "hasTransparency": false,
+      "contentTone": "mixed",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/df9999a2-8614-4559-b254-65107d630747-icbW0m4_VHvNEif6c19k9g-ade633-1536.webp"
+    },
+    {
+      "context": "Section: Why Should You Engage Our Services? | -",
+      "altText": "Individual",
+      "originalUrl": "https://colour-copier.com/images/318/27967138/Colour_Copier_Logo-_2.jpg__1_-removebg-preview-DsbteiEd8TT1jvuNzTXULw.png",
+      "originalWidth": 318,
+      "originalHeight": 212,
+      "hasTransparency": true,
+      "contentTone": "mixed",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/Colour_Copier_Logo-2.jpg-1-removebg-preview-DsbteiEd8TT1jvuNzTXULw-175ff6-318.webp"
+    },
+    {
+      "context": "Lazy-loaded image",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/1920/27967554/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ.png",
+      "originalWidth": 1920,
+      "originalHeight": 720,
+      "hasTransparency": false,
+      "contentTone": "mixed",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ-982b2a-1536.webp"
+    },
+    {
+      "context": "Section background",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/1920/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "originalWidth": 1920,
+      "originalHeight": 768,
+      "hasTransparency": false,
+      "contentTone": "light",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA-4f880a-1536.webp"
+    },
+    {
+      "context": "CSS background image",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/976/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "originalWidth": 976,
+      "originalHeight": 390,
+      "hasTransparency": false,
+      "contentTone": "light",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA-c76ddc-976.webp"
+    },
+    {
+      "context": "CSS background image",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/576/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "originalWidth": 576,
+      "originalHeight": 230,
+      "hasTransparency": false,
+      "contentTone": "light",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA-96f437-576.webp"
+    },
+    {
+      "context": "CSS background image",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/976/27967554/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ.png",
+      "originalWidth": 976,
+      "originalHeight": 366,
+      "hasTransparency": false,
+      "contentTone": "mixed",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ-1e4ada-976.webp"
+    },
+    {
+      "context": "CSS background image",
+      "altText": "",
+      "originalUrl": "https://colour-copier.com/images/576/27967554/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ.png",
+      "originalWidth": 576,
+      "originalHeight": 216,
+      "hasTransparency": false,
+      "contentTone": "mixed",
+      "cdnUrl": "https://pagesmith-cdn.com/241cb74f/images/0377a5b4-43cc-4604-a3a5-1e51833c6a46-9C6TBU5EwC9IiPx3fBZnpQ-4db7b0-576.webp"
+    }
+  ]
+}

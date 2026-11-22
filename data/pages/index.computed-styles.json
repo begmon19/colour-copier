@@ -1,0 +1,743 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": {
+    "type": "color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "fontSmoothing": null,
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": "rgb(0, 123, 255)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "fontFamily": "Montserrat",
+          "color": "rgb(0, 123, 255)",
+          "text": "FLEXIBLEPhotocopy Machine RentalHassle-free Fuji Xerox photocopier machine suppl",
+          "textTransform": "none",
+          "letterSpacing": "1px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "fontFamily": "Montserrat",
+          "color": "rgb(0, 123, 255)",
+          "text": "About Us",
+          "textTransform": "none",
+          "letterSpacing": "1px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "fontFamily": "Montserrat",
+          "color": "rgb(0, 123, 255)",
+          "text": "Reducing costs through technology",
+          "textTransform": "none",
+          "letterSpacing": "1px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "fontFamily": "Montserrat",
+          "color": "rgb(0, 123, 255)",
+          "text": "A dedicated service team",
+          "textTransform": "none",
+          "letterSpacing": "1px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "fontFamily": "Montserrat",
+          "color": "rgb(0, 123, 255)",
+          "text": "Why Should You Engage Our Services?",
+          "textTransform": "none",
+          "letterSpacing": "1px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgb(33, 37, 41)",
+        "lineHeight": "25.2px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(0, 123, 255)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "8px",
+          "padding": "14px 20px 14px 20px",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "fontFamily": "Montserrat",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Skip to main content"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 290,
+          "displayHeight": 193
+        },
+        {
+          "displayWidth": 1857,
+          "displayHeight": 253,
+          "objectFit": "cover",
+          "borderRadius": "24px 24px 0px 0px"
+        },
+        {
+          "displayWidth": 1857,
+          "displayHeight": 253,
+          "objectFit": "cover",
+          "borderRadius": "24px 24px 0px 0px"
+        },
+        {
+          "displayWidth": 318,
+          "displayHeight": 212
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "100%",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "alignItems": "flow-start",
+        "justifyContent": "flow-start",
+        "childCount": 2
+      },
+      "pseudoElements": [
+        {
+          "host": "menu-trigger-inner",
+          "type": "::before",
+          "width": "75%",
+          "height": "3px",
+          "position": "absolute",
+          "top": "-11px",
+          "backgroundColor": "rgb(0, 123, 255)"
+        },
+        {
+          "host": "menu-trigger-inner",
+          "type": "::after",
+          "width": "30px",
+          "height": "3px",
+          "position": "absolute",
+          "bottom": "-11px",
+          "backgroundColor": "rgb(0, 123, 255)"
+        },
+        {
+          "host": "wv-link-elm first",
+          "type": "::before",
+          "width": "63.2031px",
+          "height": "2px",
+          "position": "absolute",
+          "top": "24px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "zIndex": "-1",
+          "opacity": 0,
+          "hiddenAtRest": true,
+          "hoverReveal": true,
+          "backgroundColor": "rgb(0, 123, 255)"
+        },
+        {
+          "host": "wv-link-elm",
+          "type": "::before",
+          "width": "86.4844px",
+          "height": "2px",
+          "position": "absolute",
+          "top": "24px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "zIndex": "-1",
+          "opacity": 0,
+          "hiddenAtRest": true,
+          "hoverReveal": true,
+          "backgroundColor": "rgb(0, 123, 255)"
+        },
+        {
+          "host": "last",
+          "type": "::before",
+          "width": "81.2344px",
+          "height": "2px",
+          "position": "absolute",
+          "top": "24px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px",
+          "zIndex": "-1",
+          "opacity": 0,
+          "hiddenAtRest": true,
+          "hoverReveal": true,
+          "backgroundColor": "rgb(0, 123, 255)"
+        }
+      ],
+      "contentAlignment": {
+        "container": "body > ",
+        "containerSize": {
+          "width": 1905,
+          "height": 103119
+        },
+        "offsets": {
+          "left": 24,
+          "top": 389,
+          "right": 674,
+          "bottom": 102514
+        },
+        "center": {
+          "x": 0.329,
+          "y": 0.005
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "https://colour-copier.com/images/1920/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "isBackgroundPhoto": true,
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(108, 117, 125)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {
+        "containerMaxWidth": "100%",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "alignItems": "center",
+        "justifyContent": "flow-start",
+        "childCount": 6
+      }
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "Montserrat",
+    "bodyFont": "Montserrat",
+    "scale": {
+      "h2": {
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "43.2px",
+        "fontFamily": "Montserrat",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "body": {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "25.2px",
+        "fontFamily": "Montserrat"
+      }
+    },
+    "paragraphMargin": "0px 0px"
+  },
+  "navigation": {
+    "isFullWidth": false,
+    "width": "1527px",
+    "hasLogo": false,
+    "links": [
+      {
+        "text": "About",
+        "fontSize": "18px",
+        "fontFamily": "Montserrat",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "1px",
+        "textTransform": "none",
+        "color": "rgb(0, 123, 255)"
+      },
+      {
+        "text": "Services",
+        "fontSize": "18px",
+        "fontFamily": "Montserrat",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "1px",
+        "textTransform": "none",
+        "color": "rgb(0, 123, 255)"
+      },
+      {
+        "text": "Contact",
+        "fontSize": "18px",
+        "fontFamily": "Montserrat",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "1px",
+        "textTransform": "none",
+        "color": "rgb(0, 123, 255)"
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 124,
+      "distribution": "right",
+      "verticalAlign": "middle",
+      "containerAlignment": {
+        "container": "[id=\"ed-3833409362\"] > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 257
+        },
+        "offsets": {
+          "left": 1530,
+          "top": 117,
+          "right": 312,
+          "bottom": 114
+        },
+        "center": {
+          "x": 0.82,
+          "y": 0.506
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "padding": "32px 24px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px 0px 8px",
+          "position": "relative"
+        }
+      }
+    },
+    "pseudoElements": [
+      {
+        "host": "wv-link-elm first",
+        "type": "::before",
+        "width": "63.2031px",
+        "height": "2px",
+        "position": "absolute",
+        "top": "24px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "-1",
+        "opacity": 0,
+        "hiddenAtRest": true,
+        "hoverReveal": true,
+        "backgroundColor": "rgb(0, 123, 255)"
+      },
+      {
+        "host": "wv-link-elm",
+        "type": "::before",
+        "width": "86.4844px",
+        "height": "2px",
+        "position": "absolute",
+        "top": "24px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "-1",
+        "opacity": 0,
+        "hiddenAtRest": true,
+        "hoverReveal": true,
+        "backgroundColor": "rgb(0, 123, 255)"
+      },
+      {
+        "host": "last",
+        "type": "::before",
+        "width": "81.2344px",
+        "height": "2px",
+        "position": "absolute",
+        "top": "24px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "-1",
+        "opacity": 0,
+        "hiddenAtRest": true,
+        "hoverReveal": true,
+        "backgroundColor": "rgb(0, 123, 255)"
+      }
+    ]
+  },
+  "sliders": [],
+  "buttons": [
+    {
+      "backgroundColor": "rgb(0, 123, 255)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "8px",
+      "padding": "14px 20px 14px 20px",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "fontFamily": "Montserrat",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "Skip to main content"
+    }
+  ],
+  "videos": [],
+  "footer": null,
+  "socialLinks": null,
+  "hoverStyles": {
+    "a": {
+      "color": "rgb(108, 117, 125)"
+    },
+    "a:not([href]):not([tabindex])": {
+      "color": "inherit"
+    },
+    ".ed-slider .slider-controls": {
+      "opacity": "1"
+    },
+    ".ed-container > a.inner, .ed-container > a.inner:focus, .ed-container > a.inner:active, .ed-container > a.inner.active": {
+      "color": "unset"
+    },
+    ".bg-active-primary, .bg-active-primary.active": {
+      "backgroundColor": "rgb(0, 123, 255)"
+    },
+    ".color-active-primary, .color-active-primary.active": {
+      "color": "rgb(0, 123, 255)"
+    },
+    ".border-color-active-primary, .border-color-active-primary.active": {
+      "borderColor": "rgb(0, 123, 255)"
+    },
+    ".bg-active-secondary, .bg-active-secondary.active": {
+      "backgroundColor": "rgb(108, 117, 125)"
+    },
+    ".color-active-secondary, .color-active-secondary.active": {
+      "color": "rgb(108, 117, 125)"
+    },
+    ".border-color-active-secondary, .border-color-active-secondary.active": {
+      "borderColor": "rgb(108, 117, 125)"
+    },
+    ".bg-active-default, .bg-active-default.active": {
+      "backgroundColor": "rgb(33, 37, 41)"
+    },
+    ".color-active-default, .color-active-default.active": {
+      "color": "rgb(33, 37, 41)"
+    },
+    ".border-color-active-default, .border-color-active-default.active": {
+      "borderColor": "rgb(33, 37, 41)"
+    },
+    ".bg-active-text, .bg-active-text.active": {
+      "backgroundColor": "rgb(33, 37, 41)"
+    },
+    ".color-active-text, .color-active-text.active": {
+      "color": "rgb(33, 37, 41)"
+    },
+    ".border-color-active-text, .border-color-active-text.active": {
+      "borderColor": "rgb(33, 37, 41)"
+    },
+    ".bg-active-background, .bg-active-background.active": {
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    ".color-active-background, .color-active-background.active": {
+      "color": "rgb(255, 255, 255)"
+    },
+    ".border-color-active-background, .border-color-active-background.active": {
+      "borderColor": "rgb(255, 255, 255)"
+    },
+    ".bg-active-user-1, .bg-active-user-1.active": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    ".color-active-user-1, .color-active-user-1.active": {
+      "color": "rgba(0, 0, 0, 0)"
+    },
+    ".border-color-active-user-1, .border-color-active-user-1.active": {
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".bg-active-user-2, .bg-active-user-2.active": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    ".color-active-user-2, .color-active-user-2.active": {
+      "color": "rgba(0, 0, 0, 0)"
+    },
+    ".border-color-active-user-2, .border-color-active-user-2.active": {
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".bg-active-user-3, .bg-active-user-3.active": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    ".color-active-user-3, .color-active-user-3.active": {
+      "color": "rgba(0, 0, 0, 0)"
+    },
+    ".border-color-active-user-3, .border-color-active-user-3.active": {
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".bg-active-user-4, .bg-active-user-4.active": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    ".color-active-user-4, .color-active-user-4.active": {
+      "color": "rgba(0, 0, 0, 0)"
+    },
+    ".border-color-active-user-4, .border-color-active-user-4.active": {
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".bg-active-user-5, .bg-active-user-5.active": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    ".color-active-user-5, .color-active-user-5.active": {
+      "color": "rgba(0, 0, 0, 0)"
+    },
+    ".border-color-active-user-5, .border-color-active-user-5.active": {
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".bg-active-transparent, .bg-active-transparent.active": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    ".color-active-transparent, .color-active-transparent.active": {
+      "color": "rgba(0, 0, 0, 0)"
+    },
+    ".border-color-active-transparent, .border-color-active-transparent.active": {
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".ed-form-button > button:not(.button).active, .ed-form-button > button:not(.button)": {
+      "backgroundColor": "rgb(0, 98, 204)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgb(0, 98, 204)"
+    },
+    ".button.active, .ed-form-button > button.active:not(.button), .button, .ed-form-button > button:not(.button), .ed-element.ed-menu.wv-custom a.button.active, .ed-element.ed-menu.wv-custom a.button, .ed-element.ed-menu.wv-custom button a.button.active, .ed-element.ed-menu.wv-custom button a.button": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button, .ed-form-button > button:not(.button), .button.active, .ed-form-button > button.active:not(.button), .ed-element.ed-menu.wv-custom a.button, .ed-element.ed-menu.wv-custom a.button.active, .ed-element.ed-menu.wv-custom button a.button, .ed-element.ed-menu.wv-custom button a.button.active": {
+      "transform": "none",
+      "boxShadow": "none"
+    },
+    ".button.bg-primary.active, .ed-form-button > button.bg-primary.active:not(.button), .button.bg-primary, .ed-form-button > button.bg-primary:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-secondary.active, .ed-form-button > button.bg-secondary.active:not(.button), .button.bg-secondary, .ed-form-button > button.bg-secondary:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-default.active, .ed-form-button > button.bg-default.active:not(.button), .button.bg-default, .ed-form-button > button.bg-default:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-text.active, .ed-form-button > button.bg-text.active:not(.button), .button.bg-text, .ed-form-button > button.bg-text:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-background.active, .ed-form-button > button.bg-background.active:not(.button), .button.bg-background, .ed-form-button > button.bg-background:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-user-1.active, .ed-form-button > button.bg-user-1.active:not(.button), .button.bg-user-1, .ed-form-button > button.bg-user-1:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-user-2.active, .ed-form-button > button.bg-user-2.active:not(.button), .button.bg-user-2, .ed-form-button > button.bg-user-2:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-user-3.active, .ed-form-button > button.bg-user-3.active:not(.button), .button.bg-user-3, .ed-form-button > button.bg-user-3:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-user-4.active, .ed-form-button > button.bg-user-4.active:not(.button), .button.bg-user-4, .ed-form-button > button.bg-user-4:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-user-5.active, .ed-form-button > button.bg-user-5.active:not(.button), .button.bg-user-5, .ed-form-button > button.bg-user-5:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".button.bg-transparent.active, .ed-form-button > button.bg-transparent.active:not(.button), .button.bg-transparent, .ed-form-button > button.bg-transparent:not(.button)": {
+      "backgroundColor": "rgba(0, 123, 255, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "borderColor": "rgba(0, 0, 0, 0)"
+    },
+    ".flatpickr-theme-light span.flatpickr-day.selected, .flatpickr-theme-light span.flatpickr-day.startRange, .flatpickr-theme-light span.flatpickr-day.endRange, .flatpickr-theme-light span.flatpickr-day.selected.inRange, .flatpickr-theme-light span.flatpickr-day.startRange.inRange, .flatpickr-theme-light span.flatpickr-day.endRange.inRange, .flatpickr-theme-light span.flatpickr-day.selected:focus, .flatpickr-theme-light span.flatpickr-day.startRange:focus, .flatpickr-theme-light span.flatpickr-day.endRange:focus, .flatpickr-theme-light span.flatpickr-day.selected, .flatpickr-theme-light span.flatpickr-day.startRange, .flatpickr-theme-light span.flatpickr-day.endRange, .flatpickr-theme-light span.flatpickr-day.selected.prevMonthDay, .flatpickr-theme-light span.flatpickr-day.startRange.prevMonthDay, .flatpickr-theme-light span.flatpickr-day.endRange.prevMonthDay, .flatpickr-theme-light span.flatpickr-day.selected.nextMonthDay, .flatpickr-theme-light span.flatpickr-day.startRange.nextMonthDay, .flatpickr-theme-light span.flatpickr-day.endRange.nextMonthDay, .flatpickr-theme-dark span.flatpickr-day.selected, .flatpickr-theme-dark span.flatpickr-day.startRange, .flatpickr-theme-dark span.flatpickr-day.endRange, .flatpickr-theme-dark span.flatpickr-day.selected.inRange, .flatpickr-theme-dark span.flatpickr-day.startRange.inRange, .flatpickr-theme-dark span.flatpickr-day.endRange.inRange, .flatpickr-theme-dark span.flatpickr-day.selected:focus, .flatpickr-theme-dark span.flatpickr-day.startRange:focus, .flatpickr-theme-dark span.flatpickr-day.endRange:focus, .flatpickr-theme-dark span.flatpickr-day.selected, .flatpickr-theme-dark span.flatpickr-day.startRange, .flatpickr-theme-dark span.flatpickr-day.endRange, .flatpickr-theme-dark span.flatpickr-day.selected.prevMonthDay, .flatpickr-theme-dark span.flatpickr-day.startRange.prevMonthDay, .flatpickr-theme-dark span.flatpickr-day.endRange.prevMonthDay, .flatpickr-theme-dark span.flatpickr-day.selected.nextMonthDay, .flatpickr-theme-dark span.flatpickr-day.startRange.nextMonthDay, .flatpickr-theme-dark span.flatpickr-day.endRange.nextMonthDay": {
+      "backgroundColor": "rgb(0, 123, 255)",
+      "borderColor": "rgb(0, 123, 255)"
+    },
+    ".ed-element.preset-menu-v2-consulting .ed-menu > ul > li > a, .ed-element.preset-menu-v2-consulting .ed-menu > ul > li > a.active": {
+      "color": "rgb(255, 255, 255)"
+    },
+    ".ed-element.preset-menu-v2-consulting .ed-menu > ul > li > a:not(.button), .ed-element.preset-menu-v2-consulting .ed-menu > ul > li > a.active:not(.button)": {
+      "color": "var(--menu-color)"
+    },
+    ".ed-element.preset-menu-v2-consulting .ed-menu .menu-sub .menu-level-1 > li > a:not(.button), .ed-element.preset-menu-v2-consulting .ed-menu .menu-sub .menu-level-1 > li > a.active:not(.button), .ed-element.preset-menu-v2-consulting .ed-menu .menu-sub .menu-level-2 > li > a:not(.button), .ed-element.preset-menu-v2-consulting .ed-menu .menu-sub .menu-level-2 > li > a.active:not(.button)": {
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "cssVariables": {
+    "--color-primary": "0, 123, 255",
+    "--color-secondary": "108, 117, 125",
+    "--color-default": "33, 37, 41",
+    "--color-text": "33, 37, 41",
+    "--color-background": "255, 255, 255"
+  },
+  "externalFonts": [
+    "font-face: FontAwesome",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat",
+    "font-face: Montserrat"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "li",
+          "cls": "first",
+          "text": "About",
+          "color": "rgb(33, 37, 41)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "25.2px",
+          "fontFamily": "Montserrat"
+        },
+        {
+          "tag": "a",
+          "cls": "wv-link-elm",
+          "text": "About",
+          "color": "rgb(0, 123, 255)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "18px",
+          "tracking": "1px",
+          "fontFamily": "Montserrat",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Services",
+          "color": "rgb(33, 37, 41)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "25.2px",
+          "fontFamily": "Montserrat"
+        },
+        {
+          "tag": "a",
+          "cls": "wv-link-elm",
+          "text": "Services",
+          "color": "rgb(0, 123, 255)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "18px",
+          "tracking": "1px",
+          "fontFamily": "Montserrat",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "end",
+          "text": "Contact",
+          "color": "rgb(33, 37, 41)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "25.2px",
+          "fontFamily": "Montserrat"
+        },
+        {
+          "tag": "a",
+          "cls": "last",
+          "text": "Contact",
+          "color": "rgb(0, 123, 255)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "18px",
+          "tracking": "1px",
+          "fontFamily": "Montserrat",
+          "textTransform": "none"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "renderedSurfaces": [
+    {
+      "selector": "[id=\"ed-3833557328\"] > div:nth-of-type(1)",
+      "mediaKind": "css-background",
+      "image": "https://colour-copier.com/images/1920/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "url(\"https://colour-copier.com/images/1920/27967240/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA.png\")",
+      "backgroundSize": "cover",
+      "backgroundPosition": "50% 50%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "[id=\"ed-3833557337\"] > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://colour-copier.com/images/0/27967437/c7e060ee-5830-4774-94ff-f6e07c4a805f-gw0tzYAIaFKT0WyM9BgCmA.png",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "[id=\"ed-3833679485\"] > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://colour-copier.com/images/0/27967462/df9999a2-8614-4559-b254-65107d630747-icbW0m4_VHvNEif6c19k9g.png",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}

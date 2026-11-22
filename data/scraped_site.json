@@ -1,0 +1,171 @@
+{
+  "success": true,
+  "url": "https://colour-copier.com",
+  "structured": {
+    "title": "Colour Copier",
+    "description": "Colour Copier is a business established in Malaysia specializing in renting photocopier machines for businesses and alike.",
+    "url": "https://colour-copier.com",
+    "imageCount": 19,
+    "branding": {
+      "colors": {
+        "primary": "#FCA70A",
+        "accent": "#007BFF",
+        "background": "#FFFFFF",
+        "textPrimary": "#000000",
+        "link": "#007BFF"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Montserrat",
+          "heading": "Montserrat"
+        },
+        "fontStacks": {
+          "heading": [
+            "Montserrat"
+          ],
+          "body": [
+            "Montserrat"
+          ],
+          "paragraph": [
+            "Montserrat"
+          ]
+        },
+        "fontSizes": {
+          "h1": "18px",
+          "h2": "36px",
+          "body": "18px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "6px"
+      },
+      "logo": "https://colour-copier.com/images/0/27967138/Colour_Copier_Logo-_2.jpg__1_-removebg-preview-DsbteiEd8TT1jvuNzTXULw.png",
+      "favicon": "https://colour-copier.com/images/16x16/27967596/Colour_Copier_Logo-_2.jpg__1_-removebg-preview-Ce8NR0Lk7j_LeRFrYEz4KQ-8GwrV0iO38NojvwqQukncA.png",
+      "faviconCdn": "https://pagesmith-cdn.com/241cb74f/images/Colour_Copier_Logo-2.jpg-1-removebg-preview-Ce8NR0Lk7j_LeRFrYEz4KQ-8GwrV0iO38NojvwqQukncA-659988-16.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "Colour Copier",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/about/",
+        "label": "About",
+        "slug": "about",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/services/",
+        "label": "Services",
+        "slug": "services",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/blog/",
+        "label": "Blog",
+        "slug": "blog",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/contact/",
+        "label": "Contact",
+        "slug": "contact",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/legal-notice/",
+        "label": "Legal Notice",
+        "slug": "legal-notice",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/privacy/",
+        "label": "Privacy",
+        "slug": "privacy",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/consulting-blog-single-page-layout/how-to-be-a-better-consultant-tips-and-strategies/",
+        "label": "How To Be A Better Consultant Tips And Strategies",
+        "slug": "consulting-blog-single-page-layout-how-to-be-a-better-consultant-tips-and-strategies",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/consulting-blog-single-page-layout/"
+      },
+      {
+        "path": "/consulting-blog-single-page-layout/latest-insights-into-modern-marketing/",
+        "label": "Latest Insights Into Modern Marketing",
+        "slug": "consulting-blog-single-page-layout-latest-insights-into-modern-marketing",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/consulting-blog-single-page-layout/"
+      },
+      {
+        "path": "/consulting-blog-single-page-layout/reducing-costs-through-technology/",
+        "label": "Reducing Costs Through Technology",
+        "slug": "consulting-blog-single-page-layout-reducing-costs-through-technology",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/consulting-blog-single-page-layout/"
+      },
+      {
+        "path": "/consulting-blog-single-page-layout/tech-innovations-helping-business-development/",
+        "label": "Tech Innovations Helping Business Development",
+        "slug": "consulting-blog-single-page-layout-tech-innovations-helping-business-development",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/consulting-blog-single-page-layout/"
+      },
+      {
+        "path": "/consulting-blog-single-page-layout/tech-innovations-redefining-the-business-landscape/",
+        "label": "Tech Innovations Redefining The Business Landscape",
+        "slug": "consulting-blog-single-page-layout-tech-innovations-redefining-the-business-landscape",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/consulting-blog-single-page-layout/"
+      },
+      {
+        "path": "/consulting-blog-single-page-layout/the-perfect-workshop-the-consultant-s-guide/",
+        "label": "The Perfect Workshop The Consultant S Guide",
+        "slug": "consulting-blog-single-page-layout-the-perfect-workshop-the-consultant-s-guide",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/consulting-blog-single-page-layout/"
+      }
+    ],
+    "siteStructure": {
+      "mainNavPaths": [],
+      "footerPaths": [],
+      "otherLanguageRoots": []
+    },
+    "pageInventory": "6 other pages; consulting blog single page layout (6 pages)"
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-11-22T02:10:04.236Z",
+    "homepageContentLength": 2920,
+    "imageCount": 19,
+    "hasBranding": true,
+    "hasElementorEnrichment": false,
+    "hasVisibleIr": false,
+    "pagesDiscovered": 12,
+    "pagesScraped": 1,
+    "screenshotUrl": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-bb7b6714-6ccb-435e-99db-36d9dd9d35ef.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1795918195&Signature=Iw79KxpkpmbhWPjZQ12Op%2B9jgF2R5Hs9Zyp%2FYeRyXcqOVahUnhjOgfH4B%2BMdGUN3o%2F1kzcuza1%2BzNi12nD2%2F2J%2BQy2SF30e%2FkMxm9IXCIMZtwjMDEay2WVN71Di7qQzbGarxdy5P4aHpU0FqhovPP6ArmcvPaI%2BPjCz9Y5%2FdGiEQ87hzlsL9vLChXWXgZYczqDQhWRGXW0feoG%2FsZwDcfMRRDxAsnUD6BgfNZBixJWXNKAfgt9iJ7pi%2FF7o2Z4D7i9SMu9FgVNl6ftNbIj0gjxEW7oav5pl8dDBFApxiS5XG3Kr3ZB3sph7e8upTHCrWVFvcRIF62yv%2FJZUzGpZLuA%3D%3D",
+    "viewportScreenshots": [
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-aabd4946-7a64-4f50-9382-1108be62ee1b.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1795918195&Signature=rt8UC6orhQCWlnSITIeQD4BML1ZeUttrFthPgoIW%2B9uG5F8K%2BOzybnAtViXUlGFJ2X6qlRvX01ekBTwqDUitgkX6csjPeKl6jkgq3yuw%2B5cPqdQ6njfI2YlWAtfHMQrE0HI%2B4GhAP0%2B9l71yxv%2FUboTa9bbJijhKIvjmY2504O98fGdXdS4ZVYp00A7sR5sIMMgu4sazDa%2FFg9W1fOAPjSGFASIBLXZDMYwUmIhf63t0FLtA5YL0quaPaLCRqoXBIKEGAu5N94X3N0wKQrPYesS5g3v0rVelLevVBfUfHV18k3t%2Baq6xzzCPEnKIZxqWwF%2B7S2LT%2Fy5f4y3qs5E25A%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-6c2255a2-bff6-41f2-a91a-174d585fd142.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1795918199&Signature=iSre47w2sAEH4KXpxko0NG5bXQ6NupvV%2BQyqBn2PKqH1XnlRAMCtNwRswBTF%2BaN1cX20oLOTAfnxWy1RXqI2ObD%2BHOsaPl%2Fk9EnbXOj64vo87z72z3TjlKDKQZkLy8G4KLy5DEPVUtahwQFzidexnfPCklIlxUoZA4ec8yNNqC%2F6rhCwq7MxhKIRGWwvOKAlf13udCQLN6kXNgclLGcUS%2BExbMtwDYDupDh3OJUqTu7AAGxE%2FI1IO6yTTanmX24GjwtIX35iptGPzpqedv%2Fd4Qj%2FvPgM74LB%2Fp86nbnWbq%2FAIfICHs8QhpKeretK3ioNi8jFWLPn2pgMZf0R2OL8Kw%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-7b6699a5-b6ab-4a8a-9427-eaaf1b21538d.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1795918202&Signature=WcbWmC8DDy6%2B2nDSJ9N1RkS8Q8oAbdK78QWz8eF9%2BVrgzQcJGq%2BgvSJJWATIBwCeElzxO8nJMGEsyWS9VRHzOdZ9n16%2BVzC6Z7Hm%2FJb8ggA2e%2FBvL67U3kqfiVwOhbpHC1U4FKp6T6fq0K23R3wHB%2FnShrKZx0QdgbZz%2BfCci5SEUgpG%2B0SapysZGMkFdnwlMiVyTle%2BF%2B0w%2B9N3Qk1UYTC1Tvn6ttRj2ZRgxLdmoOB97M4ugTk5Q4r0y5eMBfOoDneFguR6XwEfUSLztIJlEgiUYyq70qWdsANrzMuilBX%2FnLpROwyHJufb2hPqs%2BeVB806ZvH4LTJTrPSQCC3nMw%3D%3D"
+    ]
+  }
+}

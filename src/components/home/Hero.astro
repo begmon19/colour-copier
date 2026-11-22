@@ -1,0 +1,89 @@
+---
+// Hero - split opening: text, actions and inquiry on the left, framed photograph with offset block on the right
+---
+
+<section id="main" class="bg-background" data-ps="src/components/home/Hero.astro:c630g">
+  <div class="mx-auto grid max-w-7xl grid-cols-1 items-start gap-x-12 gap-y-8 px-6 py-12 md:px-8 md:py-16 lg:grid-cols-2 lg:py-24" data-ps="src/components/home/Hero.astro:ecxgf8">
+
+    <div class="flex min-w-0 flex-col gap-6 lg:col-start-1 lg:row-start-1" data-ps="src/components/home/Hero.astro:ecxgf9">
+      <h1 class="text-h1 font-black leading-tight text-foreground" data-ps="src/components/home/Hero.astro:p3vdzq">FLEXIBLE Photocopy Machine Rental</h1>
+      <p class="max-w-xl text-lg text-foreground md:text-xl" data-ps="src/components/home/Hero.astro:ijv6zh">Hassle-free Fuji Xerox photocopier machine supplier in Malaysia.</p>
+      <div class="flex flex-col gap-3 sm:flex-row" data-ps="src/components/home/Hero.astro:ecxgfa">
+        <a href="tel:0192250338" class="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary-hover" data-ps="src/components/home/Hero.astro:iblyyp">Get In Touch</a>
+        <a href="https://wa.me/60192250338" class="inline-flex items-center justify-center gap-2 rounded-lg bg-whatsapp px-6 py-3 text-base font-semibold text-whatsapp-foreground transition-colors hover:bg-whatsapp-hover" data-ps="src/components/home/Hero.astro:iblyyo"><img src="https://pagesmith-cdn.com/241cb74f/images/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png-23f0a8-350.webp" srcset="https://pagesmith-cdn.com/241cb74f/images/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png-23f0a8-350.webp 350w, https://pagesmith-cdn.com/241cb74f/images/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png-23f0a8-320.webp 320w" sizes="24px" alt="" aria-hidden="true" width="24" height="24" loading="lazy" class="size-8 brightness-0 invert md:object-cover md:object-center" data-ps="src/components/home/Hero.astro:fibi7w">Chat on WhatsApp</a>
+      </div>
+    </div>
+
+    <figure class="relative min-w-0 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+      <div class="absolute inset-0 translate-x-4 translate-y-4 rounded-3xl bg-secondary md:translate-x-6 md:translate-y-6" aria-hidden="true" data-ps="src/components/home/Hero.astro:ecxgfb"></div>
+      <img src="https://pagesmith-cdn.com/241cb74f/images/41027053-3550-4160-8b3d-96c00f5fc1ed-jxTgc6Ns1JrrWgm706A6UA-4f880a-1536.webp" alt="Suited man gesturing toward a photocopier" width="1536" height="1152" loading="eager" fetchpriority="high" class="relative aspect-[4/3] w-full rounded-3xl object-cover object-[72%_30%]" data-ps="src/components/home/Hero.astro:fibi81">
+    </figure>
+
+    <form id="hero-inquiry-form" aria-label="Send an inquiry" class="min-w-0 lg:col-start-1 lg:row-start-2 lg:self-start">
+      <input type="hidden" name="_formId" value="inquiry">
+      <label for="hero-inquiry" class="sr-only" data-ps="src/components/home/Hero.astro:r0gxou">Phone number or email</label>
+      <div class="flex flex-col gap-3 sm:flex-row" data-ps="src/components/home/Hero.astro:ecxgfc">
+        <input id="hero-inquiry" name="contact" type="text" required autocomplete="email" placeholder="Phone number or email" class="min-w-0 flex-1 rounded-lg border border-border bg-background px-4 py-3 text-base text-foreground placeholder:text-muted-foreground">
+        <button id="hero-inquiry-submit" type="submit" class="inline-flex shrink-0 items-center justify-center rounded-lg border border-foreground bg-background px-6 py-3 text-base font-semibold text-foreground transition-colors hover:bg-surface" data-ps="src/components/home/Hero.astro:c0ayw1">Send Inquiry</button>
+      </div>
+      <altcha-widget challenge="/psapi-internal-v1/altcha/challenge" display="invisible" auto="onfocus"></altcha-widget>
+      <p id="hero-inquiry-status" role="status" class="mt-3 hidden text-base text-foreground" data-ps="src/components/home/Hero.astro:ijv6za"></p>
+    </form>
+
+  </div>
+</section>
+
+<script>
+  // Loads the captcha widget (bundled from npm) and sends the inquiry through the site's form service.
+  import 'altcha';
+
+  const form = document.getElementById('hero-inquiry-form') as HTMLFormElement | null;
+  const input = document.getElementById('hero-inquiry') as HTMLInputElement | null;
+  const submitBtn = document.getElementById('hero-inquiry-submit') as HTMLButtonElement | null;
+  const status = document.getElementById('hero-inquiry-status') as HTMLParagraphElement | null;
+
+  const showStatus = (text: string, ok: boolean) => {
+    if (!status) return;
+    status.textContent = text;
+    status.className = `mt-3 text-base ${ok ? 'text-success' : 'text-error'}`;
+  };
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!input || !submitBtn) return;
+
+    const contact = input.value.trim();
+    const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact);
+    const altcha = new FormData(form).get('altcha');
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    try {
+      const response = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _formId: 'inquiry',
+          subject: 'Interest in machine',
+          name: 'Website visitor',
+          email: isEmail ? contact : 'noreply@mail.pagesmith.app',
+          message: `Hi! I'm interested in a photocopier machine. My email/phone number is ${contact}.`,
+          altcha,
+        }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || result.success === false) {
+        throw new Error(result.error || 'Failed to send');
+      }
+      showStatus('Thank you! Your inquiry has been sent. We will be in touch soon.', true);
+      form?.reset();
+    } catch {
+      showStatus('Sorry, your inquiry did not send. Please try again or call us directly.', false);
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Inquiry';
+      status?.classList.remove('hidden');
+    }
+  });
+</script>

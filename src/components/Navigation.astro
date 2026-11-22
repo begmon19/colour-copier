@@ -1,0 +1,30 @@
+---
+// Navigation - solid sticky header with a left logo, right-hand links and a mobile dialog menu
+import { SITE } from '@/config/site';
+---
+
+<header class="sticky top-0 z-40 border-b border-border bg-background" data-ps="src/components/Navigation.astro:dt8k87">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground whitespace-nowrap" data-ps="src/components/Navigation.astro:7vkjsa">Skip to main content</a>
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3 md:px-8" data-ps="src/components/Navigation.astro:gqvsdc">
+    <a href="/" class="shrink-0 whitespace-nowrap" data-ps="src/components/Navigation.astro:7vkjsb">
+      <img src="https://pagesmith-cdn.com/241cb74f/images/Colour_Copier_Logo-2.jpg-1-removebg-preview-DsbteiEd8TT1jvuNzTXULw-06c97e-612.webp" alt="Colour Copier Sdn Bhd" width="84" height="56" class="h-14 w-auto" data-ps="src/components/Navigation.astro:d4d6a0">
+    </a>
+
+    <nav aria-label="Primary" class="hidden md:items-center md:gap-8 md:inline-flex" data-ps="src/components/Navigation.astro:m59h3a">
+      <a href="/#about" class="whitespace-nowrap text-base font-medium text-foreground underline-offset-4 transition-colors hover:text-secondary hover:underline" data-ps="src/components/Navigation.astro:7vkjsc">About</a>
+      <a href="/#services" class="whitespace-nowrap text-base font-medium text-foreground underline-offset-4 transition-colors hover:text-secondary hover:underline" data-ps="src/components/Navigation.astro:7vkjsd">Services</a>
+      <a href="/#contact" class="whitespace-nowrap text-base font-medium text-foreground underline-offset-4 transition-colors hover:text-secondary hover:underline" data-ps="src/components/Navigation.astro:7vkjse">Contact</a>
+    </nav>
+
+    <button type="button" commandfor="site-menu" command="show-modal" aria-controls="site-menu" aria-haspopup="dialog" aria-label="Menu" class="-mr-3.5 ml-auto inline-flex size-12 shrink-0 cursor-pointer select-none items-center justify-center transition-opacity hover:opacity-70 md:hidden" data-ps="src/components/Navigation.astro:4mva8"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 9h16M4 15h16"></path></svg></button>
+  </div>
+</header>
+
+<dialog id="site-menu" aria-label="Menu" class="fixed inset-0 m-0 h-dvh max-h-none w-full max-w-none overflow-hidden border-0 bg-transparent p-0 backdrop:bg-black/40"><div class="ml-auto flex h-full w-full flex-col overflow-y-auto bg-background px-6 pb-6 text-foreground sm:max-w-md" data-ps="src/components/Navigation.astro:gqvsdd"><div class="flex min-h-[4.5rem] flex-none items-center justify-between gap-4" data-ps="src/components/Navigation.astro:gqvsde"><span class="shrink-0 whitespace-nowrap" data-ps="src/components/Navigation.astro:i2om6b"><img src="https://pagesmith-cdn.com/241cb74f/images/Colour_Copier_Logo-2.jpg-1-removebg-preview-DsbteiEd8TT1jvuNzTXULw-06c97e-612.webp" alt="Colour Copier Sdn Bhd" width="84" height="56" class="h-14 w-auto" data-ps="src/components/Navigation.astro:d4d69z"></span><button type="button" commandfor="site-menu" command="close" aria-label="Close menu" class="-mr-3.5 ml-auto inline-flex size-12 shrink-0 cursor-pointer select-none items-center justify-center transition-opacity hover:opacity-70" data-ps="src/components/Navigation.astro:4mva9"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div><nav aria-label="Main" data-ps="src/components/Navigation.astro:m59h39"><ul class="m-0 mt-2 list-none border-t border-border p-0"><li class="border-b border-border" data-ps="src/components/Navigation.astro:2wgnlq"><a href="/#about" class="flex min-h-12 items-center py-3.5 text-h3 font-bold text-foreground" data-ps="src/components/Navigation.astro:7vkjsf">About</a></li><li class="border-b border-border" data-ps="src/components/Navigation.astro:fy1jfa"><a href="/#services" class="flex min-h-12 items-center py-3.5 text-h3 font-bold text-foreground" data-ps="src/components/Navigation.astro:kd8n5z">Services</a></li><li class="border-b border-border" data-ps="src/components/Navigation.astro:2wgnlr"><a href="/#contact" class="flex min-h-12 items-center py-3.5 text-h3 font-bold text-foreground" data-ps="src/components/Navigation.astro:kd8n5y">Contact</a></li></ul></nav></div></dialog>
+
+<script is:inline>
+  // Close the mobile dialog after a link in it is chosen (same-page anchors keep it open otherwise)
+  document.querySelectorAll('#site-menu a').forEach((link) => {
+    link.addEventListener('click', () => document.getElementById('site-menu')?.close());
+  });
+</script>
